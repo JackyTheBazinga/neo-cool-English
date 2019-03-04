@@ -1,1 +1,61 @@
-// temporarily removed the file for maintenance. Gotta fix the ios problem first.
+{
+  "pages": [
+    "pages/index",
+    "pages/login/login",
+    "pages/logs/logs",
+    "pages/road/road",
+    "pages/yanshi/yanshi",
+    "pages/study/stepzero",
+    "pages/study/stepone",
+    "pages/study/steptwo",
+    "pages/study/stepthree",
+    "pages/study/stepfour",
+    "pages/study/stepfive",
+    "pages/study/steplast",
+    "pages/lessons/fourpeople/page_01",
+    "pages/lessons/fourpeople/page_02",
+    "pages/lessons/fourpeople/page_03",
+    "pages/share/share",
+    "pages/news/news",
+    "pages/setting/setting",
+    "pages/try/try"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#00BFFF",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "My Neo Cool English",
+    "backgroundColor": "#eeeeee",
+    "navigationStyle": "default"
+  },
+  "tabBar": {
+    "color": "#ffffff",
+    "selectedColor": "#000000",
+    "backgroundColor": "#00BFFF",
+    "position": "bottom",
+    "list": [
+      {
+        "iconPath": "/static/icon/list.png",
+        "selectedIconPath": "/static/icon/list_selected.png",
+        "pagePath": "pages/index",
+        "text": "Testing"
+      },
+      {
+        "iconPath": "/static/icon/home.png",
+        "selectedIconPath": "/static/icon/home_selected.png",
+        "pagePath": "pages/news/news",
+        "text": "news"
+      },
+      {
+        "iconPath": "/static/icon/user.png",
+        "selectedIconPath": "/static/icon/user_selected.png",
+        "pagePath": "pages/setting/setting",
+        "text": "setting"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
